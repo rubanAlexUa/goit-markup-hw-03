@@ -181,6 +181,10 @@ li p,
   gap: 24px;
 }
 
+.member{
+  text-align: center;
+}
+
 .heading-second {
   font-size: 36px;
   line-height: 1.11;
@@ -275,7 +279,7 @@ footer {
 }
 
 .footer-logo{
-  display: inline-block;
+  display:inline-block;
   margin-bottom: 16px;
 }
 
