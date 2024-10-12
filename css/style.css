@@ -51,6 +51,10 @@ span {
   color: #2e2f42;
 }
 
+.heading-third{
+  margin-bottom: 8px;
+}
+
 .logo {
   color: #4d5ae5;
   padding:24px 0;
@@ -183,7 +187,7 @@ li p,
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  margin-top:72px;
+  margin-bottom:72px;
 }
 
 .invisible-heading{
@@ -199,9 +203,6 @@ li p,
   overflow: hidden;
 } 
 
-.s-sel-heading{
-  margin-bottom: 8px;
-}
 
 .description-box{
   gap: 24px;
@@ -223,18 +224,13 @@ li p,
   display: flex;
   flex-direction: column;
   align-items: center; 
-  padding: 32px 0;
 }
 
 .description-member{
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 24px 0px 24px;
-}
-
-.member{
-  margin-bottom: 8px
+  padding: 32px 0;
 }
 
 .occupation{
@@ -245,7 +241,9 @@ li p,
   display:flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
 }
+
 
 .app-image{
   display: block;
@@ -256,6 +254,7 @@ li p,
   border-top: none;
   padding: 32px 0 32px 16px;
   margin: 0;
+  padding: 32px 16px;
 }
 
 footer {
