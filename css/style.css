@@ -190,7 +190,7 @@ li p,
   margin-bottom:72px;
 }
 
-.invisible-heading{
+.visually-hidden{
   position: absolute;
   width: 1px;
   height: 1px;
