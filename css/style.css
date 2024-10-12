@@ -34,9 +34,8 @@ nav, ul{
   display:flex;
 }
 
-.logo {
-  color: #4d5ae5;
-  padding:24px 0;
+.header-navigation{
+  align-items: center;
 }
 
 span {
@@ -44,16 +43,18 @@ span {
 }
 
 .logo {
+  color: #4d5ae5;
+  padding:24px 0;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .header-list{
-  margin-left:76px;
   align-self:center;
   gap: 40px;
 }
@@ -65,6 +66,7 @@ span {
   letter-spacing: 0.02em;
   font-style: normal;
   margin-left: auto;
+  padding:24px 0;
 }
 
 .address-list{
@@ -97,7 +99,6 @@ nav li,
 
 .email-tel {
   color: #434455;
-  padding:24px 0;
 }
 
 .email-tel:hover {
@@ -110,11 +111,12 @@ nav li,
 
 .f-sel {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .button-service {
   font-size: 16px;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 150%;
@@ -122,10 +124,12 @@ nav li,
   color: #fff;
   cursor: pointer;
   border-radius: 4px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   margin: 48px auto 0 auto;
   display: block;
+  cursor: pointer;
+  border: none;
 }
 
 .button-service:hover,
@@ -188,7 +192,7 @@ li p,
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-
+  margin-bottom: 8px;
 } 
 
 .section{
@@ -200,7 +204,7 @@ li p,
 }
 
 .description-box> li{
-  width: calc((100% - 72) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .member-sel li {
